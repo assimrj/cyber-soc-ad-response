@@ -1,0 +1,14 @@
+# Certificates / private keys
+*.pem
+*.pfx
+*.cer
+*.key
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.code-workspace
