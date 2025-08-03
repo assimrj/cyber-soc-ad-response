@@ -9,6 +9,18 @@
 
 ---
 
+## 🧪 Lab Environment (Vultr Cloud)
+
+This project was built and tested using four virtual machines on **Vultr Cloud**:
+
+- 🟦 `CipherNox-AD-DC-01`: Windows Server 2025 – Domain Controller & AD
+- 🟦 `CipherNox-TestMachine-01`: Windows Server 2025 – Victim/Test system
+- 🟠 `CipherNox-Splunk`: Ubuntu Server running Splunk Enterprise
+- 🔴 `CipherNox-Debian-Attacker`: Simulated external attacker machine
+
+Thanks to [Vultr](https://www.vultr.com/) for providing accessible infrastructure to simulate this security automation project.
+
+
 ## 🧠 Project Overview
 
 This project automates the incident response workflow triggered by unauthorized access attempts in a Windows domain environment.
